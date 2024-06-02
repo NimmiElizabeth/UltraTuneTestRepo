@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp.Tests\\SampleConsoleApp.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp.Tests\\SampleConsoleApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp.Tests\\SampleConsoleApp.Tests.csproj",
+        "projectName": "SampleConsoleApp.Tests",
+        "projectPath": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp.Tests\\SampleConsoleApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\Nimmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nimmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp\\SampleConsoleApp.csproj": {
+                "projectPath": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp\\SampleConsoleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.10.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp\\SampleConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp\\SampleConsoleApp.csproj",
+        "projectName": "SampleConsoleApp",
+        "projectPath": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp\\SampleConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Nimmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimmi\\Documents\\Aus Job Search\\Coding\\UltraTuneTest\\UltraTuneTest\\SampleConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nimmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
